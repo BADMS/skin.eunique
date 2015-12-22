@@ -1490,8 +1490,9 @@
 	</variable>
 	<variable name="ColorboxPowerModeColor">
 		<value condition="Window.IsVisible(Home.xml) + !Skin.HasSetting(low.power)">$INFO[Window(home).Property(HomeInfo.ImageColor)]</value>
-		<value condition="Window.IsVisible(DialogVideoInfo.xml) + !Skin.HasSetting(low.power)">$INFO[Window(home).Property(VideoInfo.ImageColor)]</value>
+		<value condition="Window.IsVisible(DialogVideoInfo.xml) + !Skin.HasSetting(low.power)">$INFO[Window(home).Property(VideoPosterInfo.ImageColor)]</value>
 		<value condition="Window.IsVisible(DialogVideoInfo.xml) + Skin.HasSetting(low.power)">$VAR[ColourFlags]</value>
+
 		<value condition="Window.IsVisible(DialogAlbumInfo.xml) + !Skin.HasSetting(low.power)">$INFO[Window(home).Property(MusicPosterInfo.ImageColor)]</value>
 		<value condition="Window.IsVisible(DialogAlbumInfo.xml) + Skin.HasSetting(low.power)">$VAR[ColourFlags]</value>
 
