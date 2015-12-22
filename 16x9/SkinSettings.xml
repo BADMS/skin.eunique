@@ -338,6 +338,7 @@
 						<label>$LOCALIZE[31972]: $INFO[skin.string(SkinHelper.RandomFanartDelay)] $LOCALIZE[31800]</label>
 						<onclick>Skin.SetNumeric(SkinHelper.RandomFanartDelay)</onclick>
 					</control>
+					<!--
 					<control type="button" id="92281" description="Fanart Opacity">
 						<width>1410</width>
 						<include>DefSettingsButton2</include>
@@ -359,6 +360,7 @@
 						<onclick>RunScript(script.toolbox,info=selectdialog,header=Select Background Opacity)</onclick>
 						<visible>!Skin.HasSetting(lights.out)</visible>
 					</control>
+					-->
 					<control type="radiobutton" id="9224" description="Animate Fanart">
 						<width>1410</width>
 						<include>DefSettingsButton2</include>
@@ -800,8 +802,8 @@
 					</control>
 					<control type="radiobutton" id="92816">
 						<width>1410</width>
-						<textureradiofocus colordiffuse="$VAR[EmbyMiddleColourHighlight]">common/box.png</textureradiofocus>
-						<textureradionofocus colordiffuse="$VAR[EmbyMiddleColourHighlight]">common/box.png</textureradionofocus>
+						<textureradiofocus colordiffuse="$VAR[BackingColourHighlight]">common/box.png</textureradiofocus>
+						<textureradionofocus colordiffuse="$VAR[BackingColourHighlight]">common/box.png</textureradionofocus>
 						<include>DefSettingsButton2</include>
 						<onclick>RunScript(script.skin.helper.service,action=COLORPICKER,skinstring=backing.color.name)</onclick>
 						<label>32064</label>
