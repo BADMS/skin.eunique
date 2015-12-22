@@ -14,7 +14,7 @@
 			<control type="image">
 				<include>Dimensions_Fullscreen</include>
 				<aspectratio align="center">scale</aspectratio>
-				<texture colordiffuse="$INFO[Window(home).Property(PVRInfo.ImageColor)]" fallback="common/black.png" background="true" diffuse="diffuse/dv-mask.png">$VAR[PVRFanart]</texture>
+				<texture colordiffuse="$INFO[Window(home).Property(PVRInfo.ImageColor)]" background="true" diffuse="diffuse/dv-mask.png">$VAR[PVRFanart]</texture>
 				<visible>!Skin.HasSetting(lights.out) + Window.IsVisible(DialogPVRInfo.xml) + !Skin.HasSetting(furniture.info.fanart)</visible>
 			</control>
 			<control type="group">

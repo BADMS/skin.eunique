@@ -31,7 +31,7 @@
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<aspectratio align="center">scale</aspectratio>
-			<texture colordiffuse="$INFO[Window(home).Property(MusicInfo.ImageColor)]" fallback="common/black.png" background="true" diffuse="diffuse/dv-mask.png">$INFO[Window(home).Property(MusicInfo.ImageFilter)]</texture>
+			<texture colordiffuse="$INFO[Window(home).Property(MusicInfo.ImageColor)]" background="true" diffuse="diffuse/dv-mask.png">$INFO[Window(home).Property(MusicInfo.ImageFilter)]</texture>
 			<visible>!Skin.HasSetting(lights.out)</visible>
 			<visible>!Player.HasAudio</visible>
 			<visible>![[Skin.HasSetting(global.showvideo) + Player.HasVideo] | [Skin.HasSetting(global.showvisualisation) + Player.HasAudio]] + Window.IsVisible(DialogAlbumInfo.xml) + Skin.HasSetting(toggled.ai.info)</visible>

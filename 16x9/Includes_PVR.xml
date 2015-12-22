@@ -663,7 +663,7 @@
 								<width>220</width>
 								<height>220</height>
 								<aspectratio align="left" aligny="top">keep</aspectratio>
-								<texture fallback="empty.png">http://localhost:52307/getpvrthumb&amp;title=$INFO[ListItem.Title]&amp;channel=$INFO[ListItem.ChannelName]&amp;type=poster,landscape,fanart,thumb</texture>
+								<texture>http://localhost:52307/getpvrthumb&amp;title=$INFO[ListItem.Title]&amp;channel=$INFO[ListItem.ChannelName]&amp;type=poster,landscape,fanart,thumb</texture>
 							</control>
 							<control type="image">
 								<left>20</left>
@@ -898,7 +898,7 @@
 								<width>220</width>
 								<height>220</height>
 								<aspectratio align="left" aligny="top">keep</aspectratio>
-								<texture fallback="empty.png">http://localhost:52307/getpvrthumb&amp;title=$INFO[ListItem.Title]&amp;channel=$INFO[ListItem.ChannelName]&amp;type=poster,landscape,fanart,thumb</texture>
+								<texture>http://localhost:52307/getpvrthumb&amp;title=$INFO[ListItem.Title]&amp;channel=$INFO[ListItem.ChannelName]&amp;type=poster,landscape,fanart,thumb</texture>
 							</control>
 							<control type="image">
 								<left>20</left>
@@ -1332,7 +1332,7 @@
 					<width>250</width>
 					<height>165</height>
 					<aspectratio aligny="center" align="right">keep</aspectratio>
-					<texture fallback="empty.png">http://localhost:52307/getpvrthumb&amp;title=$INFO[ListItem.Title]&amp;channel=$INFO[ListItem.ChannelName]&amp;type=landscape,fanart,thumb,poster</texture>
+					<texture>http://localhost:52307/getpvrthumb&amp;title=$INFO[ListItem.Title]&amp;channel=$INFO[ListItem.ChannelName]&amp;type=landscape,fanart,thumb,poster</texture>
 					<visible>!Player.HasVideo</visible>
 				</control>
 				<control type="image">

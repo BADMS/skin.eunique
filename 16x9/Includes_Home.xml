@@ -2319,7 +2319,7 @@
 						<itemlayout width="410" height="88.125">
 							<control type="image">
 								<aspectratio scalediffuse="false">stretch</aspectratio>
-								<texture fallback="empty.png" background="true">$VAR[BannerImage]</texture>
+								<texture background="true">$VAR[BannerImage]</texture>
 							</control>
 							<control type="progress">
 								<bottom>0</bottom>
@@ -2343,7 +2343,7 @@
 								<animation effect="zoom" start="100" end="127" time="100" reversible="false" center="auto">Focus</animation>
 								<control type="image">
 									<aspectratio scalediffuse="false">stretch</aspectratio>
-									<texture fallback="empty.png" background="true">$VAR[BannerImage]</texture>
+									<texture background="true">$VAR[BannerImage]</texture>
 								</control>
 								<control type="progress">
 									<bottom>0</bottom>
@@ -2524,56 +2524,56 @@
 							<top>0</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(9017).Listitem(1).Icon]</texture>
+							<texture>$INFO[Container(9017).Listitem(1).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>474</left>
 							<top>0</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(9017).Listitem(2).Icon]</texture>
+							<texture>$INFO[Container(9017).Listitem(2).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>316</left>
 							<top>235</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(9017).Listitem(3).Icon]</texture>
+							<texture>$INFO[Container(9017).Listitem(3).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>474</left>
 							<top>235</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(9017).Listitem(4).Icon]</texture>
+							<texture>$INFO[Container(9017).Listitem(4).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>0</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(9017).Listitem(5).Icon]</texture>
+							<texture>$INFO[Container(9017).Listitem(5).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>158</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(9017).Listitem(6).Icon]</texture>
+							<texture>$INFO[Container(9017).Listitem(6).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>316</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(9017).Listitem(7).Icon]</texture>
+							<texture>$INFO[Container(9017).Listitem(7).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>474</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(9017).Listitem(8).Icon]</texture>
+							<texture>$INFO[Container(9017).Listitem(8).Icon]</texture>
 						</control>
 						<!-- main box -->
 						<control type="group">
@@ -2589,7 +2589,7 @@
 								<top>0</top>
 								<width>316</width>
 								<height>470</height>
-								<texture fallback="empty.png">$INFO[Container(9017).Listitem(0).Icon]</texture>
+								<texture>$INFO[Container(9017).Listitem(0).Icon]</texture>
 							</control>
 							<control type="progress">
 								<bottom>0</bottom>
@@ -3837,56 +3837,56 @@
 							<top>0</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(10017).Listitem(1).Icon]</texture>
+							<texture>$INFO[Container(10017).Listitem(1).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>474</left>
 							<top>0</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(10017).Listitem(2).Icon]</texture>
+							<texture>$INFO[Container(10017).Listitem(2).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>316</left>
 							<top>235</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(10017).Listitem(3).Icon]</texture>
+							<texture>$INFO[Container(10017).Listitem(3).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>474</left>
 							<top>235</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(10017).Listitem(4).Icon]</texture>
+							<texture>$INFO[Container(10017).Listitem(4).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>0</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(10017).Listitem(5).Icon]</texture>
+							<texture>$INFO[Container(10017).Listitem(5).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>158</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(10017).Listitem(6).Icon]</texture>
+							<texture>$INFO[Container(10017).Listitem(6).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>316</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(10017).Listitem(7).Icon]</texture>
+							<texture>$INFO[Container(10017).Listitem(7).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>474</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(10017).Listitem(8).Icon]</texture>
+							<texture>$INFO[Container(10017).Listitem(8).Icon]</texture>
 						</control>
 						<!-- main box -->
 						<control type="group">
@@ -3902,7 +3902,7 @@
 								<top>0</top>
 								<width>316</width>
 								<height>470</height>
-								<texture fallback="empty.png">$INFO[Container(10017).Listitem(0).Icon]</texture>
+								<texture>$INFO[Container(10017).Listitem(0).Icon]</texture>
 							</control>
 						</control>
 					</control>
@@ -4912,56 +4912,56 @@
 							<top>0</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(14017).Listitem(1).Icon]</texture>
+							<texture>$INFO[Container(14017).Listitem(1).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>474</left>
 							<top>0</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(14017).Listitem(2).Icon]</texture>
+							<texture>$INFO[Container(14017).Listitem(2).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>316</left>
 							<top>235</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(14017).Listitem(3).Icon]</texture>
+							<texture>$INFO[Container(14017).Listitem(3).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>474</left>
 							<top>235</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(14017).Listitem(4).Icon]</texture>
+							<texture>$INFO[Container(14017).Listitem(4).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>0</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(14017).Listitem(5).Icon]</texture>
+							<texture>$INFO[Container(14017).Listitem(5).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>158</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(14017).Listitem(6).Icon]</texture>
+							<texture>$INFO[Container(14017).Listitem(6).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>316</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(14017).Listitem(7).Icon]</texture>
+							<texture>$INFO[Container(14017).Listitem(7).Icon]</texture>
 						</control>
 						<control type="image">
 							<left>474</left>
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(14017).Listitem(8).Icon]</texture>
+							<texture>$INFO[Container(14017).Listitem(8).Icon]</texture>
 						</control>
 						<!-- main box -->
 						<control type="group">
@@ -4977,7 +4977,7 @@
 								<top>0</top>
 								<width>316</width>
 								<height>470</height>
-								<texture fallback="empty.png">$INFO[Container(14017).Listitem(0).Icon]</texture>
+								<texture>$INFO[Container(14017).Listitem(0).Icon]</texture>
 							</control>
 						</control>
 					</control>
@@ -6289,7 +6289,7 @@
 							<top>0</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(15017).Listitem(1).Icon]</texture>
+							<texture>$INFO[Container(15017).Listitem(1).Icon]</texture>
 							<aspectratio>scale</aspectratio>
 						</control>
 						<control type="image">
@@ -6297,7 +6297,7 @@
 							<top>0</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(15017).Listitem(2).Icon]</texture>
+							<texture>$INFO[Container(15017).Listitem(2).Icon]</texture>
 							<aspectratio>scale</aspectratio>
 						</control>
 						<control type="image">
@@ -6305,7 +6305,7 @@
 							<top>235</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(15017).Listitem(3).Icon]</texture>
+							<texture>$INFO[Container(15017).Listitem(3).Icon]</texture>
 							<aspectratio>scale</aspectratio>
 						</control>
 						<control type="image">
@@ -6313,7 +6313,7 @@
 							<top>235</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(15017).Listitem(4).Icon]</texture>
+							<texture>$INFO[Container(15017).Listitem(4).Icon]</texture>
 							<aspectratio>scale</aspectratio>
 						</control>
 						<control type="image">
@@ -6321,7 +6321,7 @@
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(15017).Listitem(5).Icon]</texture>
+							<texture>$INFO[Container(15017).Listitem(5).Icon]</texture>
 							<aspectratio>scale</aspectratio>
 						</control>
 						<control type="image">
@@ -6329,7 +6329,7 @@
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(15017).Listitem(6).Icon]</texture>
+							<texture>$INFO[Container(15017).Listitem(6).Icon]</texture>
 							<aspectratio>scale</aspectratio>
 						</control>
 						<control type="image">
@@ -6337,7 +6337,7 @@
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(15017).Listitem(7).Icon]</texture>
+							<texture>$INFO[Container(15017).Listitem(7).Icon]</texture>
 							<aspectratio>scale</aspectratio>
 						</control>
 						<control type="image">
@@ -6345,7 +6345,7 @@
 							<top>470</top>
 							<width>158</width>
 							<height>235</height>
-							<texture fallback="empty.png">$INFO[Container(15017).Listitem(8).Icon]</texture>
+							<texture>$INFO[Container(15017).Listitem(8).Icon]</texture>
 							<aspectratio>scale</aspectratio>
 						</control>
 						<!-- main box -->
@@ -6362,7 +6362,7 @@
 								<top>0</top>
 								<width>316</width>
 								<height>470</height>
-								<texture fallback="empty.png">$INFO[Container(15017).Listitem(0).Icon]</texture>
+								<texture>$INFO[Container(15017).Listitem(0).Icon]</texture>
 								<aspectratio>scale</aspectratio>
 							</control>
 						</control>
