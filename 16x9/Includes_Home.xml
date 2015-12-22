@@ -1983,7 +1983,7 @@
 							<aligny>center</aligny>
 							<label>$INFO[Window(Home).Property(SkinHelper.TotalVideoAddons)]</label>
 							<font>minisymbol</font>
-							<textcolor>black</textcolor>
+							<textcolor>$VAR[EmbyLeftColourHighlight]</textcolor>
 							<visible>!Control.HasFocus(60133)</visible>
 						</control>
 					</control>
@@ -2106,7 +2106,7 @@
 							<aligny>center</aligny>
 							<label>$INFO[Window(Home).Property(SkinHelper.TotalFavourites)]</label>
 							<font>minisymbol</font>
-							<textcolor>black</textcolor>
+							<textcolor>$VAR[EmbyMiddleColourHighlight]</textcolor>
 							<visible>!Control.HasFocus(60155)</visible>
 						</control>
 					</control>
@@ -2232,7 +2232,7 @@
 							<aligny>center</aligny>
 							<label>$INFO[Window(Home).Property(SkinHelper.TotalAudioAddons)]</label>
 							<font>minisymbol</font>
-							<textcolor>black</textcolor>
+							<textcolor>$VAR[EmbyRightColourHighlight]</textcolor>
 							<visible>!Control.HasFocus(60144)</visible>
 						</control>
 					</control>
@@ -3415,7 +3415,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>minisymbol</font>
-							<textcolor>black</textcolor>
+							<textcolor>$VAR[EmbyLeftColourHighlight]</textcolor>
 							<label>$INFO[Window(Home).Property(Movies.Count)]</label>
 							<visible>!Control.HasFocus(30133)</visible>
 						</control>
@@ -4521,80 +4521,10 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>minisymbol</font>
-							<textcolor>black</textcolor>
+							<textcolor>$VAR[EmbyLeftColourHighlight]</textcolor>
 							<label>$INFO[Window(Home).Property(TVShows.Count)]</label>
 							<visible>!Control.HasFocus(40133)</visible>
 						</control>
-					</control>
-					<control type="list" id="40133">
-						<description>Widget</description>
-						<visible>Control.HasFocus(40133)</visible>
-						<visible allowhiddenfocus="true">IntegerGreaterThan(Container(40133).NumItems,0)</visible>
-						<onup>4012</onup>
-						<onright>4015</onright>
-						<onleft>300</onleft>
-						<onback>300</onback>
-						<left>SidePad</left>
-						<posy>790</posy>
-						<width>410</width>
-						<height>245</height>
-						<preloaditems>2</preloaditems>
-						<orientation>vertical</orientation>
-						<scrolltime tween="quadratic">100</scrolltime>
-						<itemlayout width="410" height="245">
-							<control type="image">
-								<aspectratio>stretch</aspectratio>
-								<texture background="true" colordiffuse="$VAR[EmbyLeftColourHighlight]">$VAR[LandscapeImage]</texture>
-							</control>
-						</itemlayout>
-						<focusedlayout width="410" height="245">
-							<control type="group">
-								<animation type="Focus" reversible="false">
-									<effect type="slide" start="0" end="0,23" time="200" center="auto" tween="quadratic" easing="out"/>
-								</animation>
-								<control type="button">
-									<onfocus>SetProperty(SkinHelper.WidgetContainer,40133)</onfocus>
-									<texturenofocus>-</texturenofocus>
-									<texturefocus>-</texturefocus>
-								</control>
-								<control type="label" id="13370">
-									<bottom>45</bottom>
-									<height>200</height>
-									<aligny>center</aligny>
-									<align>center</align>
-									<font>symbolbiggest</font>
-									<label>$VAR[SwapDefaultImage]</label>
-									<textcolor>$VAR[EmbyMenuTextColourHighlight]</textcolor>
-								</control>
-								<control type="image">
-									<aspectratio>stretch</aspectratio>
-									<texture background="true" colordiffuse="$VAR[EmbyLeftColourHighlight]">$VAR[LandscapeImage]</texture>
-								</control>
-								<control type="group">
-									<visible>IntegerGreaterThan(ListItem.Property(UnwatchedEpisodes),0)</visible>
-									<control type="image">
-										<right>9</right>
-										<top>9</top>
-										<height>45</height>
-										<width>40</width>
-										<texture colordiffuse="$VAR[EmbyMenuTextColourHighlight]">common/circle.png</texture>
-										<aspectratio align="center" aligny="center">keep</aspectratio>
-									</control>
-									<control type="label">
-										<right>9</right>
-										<top>9</top>
-										<height>45</height>
-										<width>40</width>
-										<align>center</align>
-										<aligny>center</aligny>
-										<label>$INFO[ListItem.Property(UnwatchedEpisodes)]</label>
-										<font>Flag</font>
-										<textcolor>black</textcolor>
-									</control>
-								</control>
-							</control>
-						</focusedlayout>
-						<content target="video">special://skin/extras/playlists/AllShows.xsp</content>
 					</control>
 					<control type="group">
 						<animation effect="slide" start="0,0" end="0,23" time="200" center="auto" condition="Control.HasFocus(4015)">Conditional</animation>
@@ -4672,7 +4602,7 @@
 							<align>center</align>
 							<aligny>center</aligny>
 							<font>minisymbol</font>
-							<textcolor>black</textcolor>
+							<textcolor>$VAR[EmbyRightColourHighlight]</textcolor>
 							<label>$INFO[Window.Property(NextAired.TodayTotal)]</label>
 							<visible>!Control.HasFocus(40155)</visible>
 						</control>
@@ -5749,7 +5679,7 @@
 							<aligny>center</aligny>
 							<label>$INFO[Window(Home).Property(Music.AlbumsCount)]</label>
 							<font>minisymbol</font>
-							<textcolor>black</textcolor>
+							<textcolor>$VAR[EmbyLeftColourHighlight]</textcolor>
 							<visible>!Control.HasFocus(50133)</visible>
 						</control>
 					</control>
@@ -5888,7 +5818,7 @@
 							<aligny>center</aligny>
 							<label>$INFO[Window(Home).Property(Music.ArtistsCount)]</label>
 							<font>minisymbol</font>
-							<textcolor>black</textcolor>
+							<textcolor>$VAR[EmbyMiddleColourHighlight]</textcolor>
 							<visible>!Control.HasFocus(50155)</visible>
 						</control>
 					</control>
@@ -6684,7 +6614,7 @@
 						<aligny>center</aligny>
 						<label>$INFO[Pvr.BackendTimers]</label>
 						<font>minisymbol</font>
-						<textcolor>black</textcolor>
+						<textcolor>$VAR[EmbyLeftColourHighlight]</textcolor>
 						<visible>StringCompare(Container(300).ListItem.Property(defaultID),livetv)</visible>
 					</control>
 				</control>
@@ -6823,7 +6753,7 @@
 						<aligny>center</aligny>
 						<label>$INFO[Pvr.BackendRecordings]</label>
 						<font>minisymbol</font>
-						<textcolor>black</textcolor>
+						<textcolor>$VAR[EmbyRightColourHighlight]</textcolor>
 						<visible>StringCompare(Container(300).ListItem.Property(defaultID),livetv)</visible>
 					</control>
 				</control>
@@ -6963,7 +6893,7 @@
 						<align>center</align>
 						<aligny>center</aligny>
 						<font>minisymbol</font>
-						<textcolor>black</textcolor>
+						<textcolor>$VAR[EmbyRightColourHighlight]</textcolor>
 						<label>$INFO[Pvr.BackendChannels]</label>
 						<visible>StringCompare(Container(300).ListItem.Property(defaultID),livetv)</visible>
 					</control>
