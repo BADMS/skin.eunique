@@ -31,9 +31,9 @@
                 <left>0</left>
                 <control type="image">
                     <right>10</right>
-                    <bottom>110</bottom>
-                    <width>500</width>
-                    <height>281</height>
+                    <bottom>100</bottom>
+                    <width>900</width>
+                    <height>481</height>
                     <texture>$VAR[PlayerClearart]</texture>
                     <aspectratio align="right" aligny="bottom">keep</aspectratio>
                     <include>Animation.FadeIn</include>
