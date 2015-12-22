@@ -398,7 +398,7 @@
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<aspectratio align="center">scale</aspectratio>
-			<texture background="true">$INFO[Window(home).Property(MusicInfo.ImageFilter)]</texture>
+			<texture background="true">$VAR[ColorboxPowerModeImage]</texture>
 			<visible>![[Skin.HasSetting(global.showvideo) + Player.HasVideo] | [Skin.HasSetting(global.showvisualisation) + Player.HasAudio]] + Window.IsVisible(DialogAlbumInfo.xml) + !Skin.HasSetting(toggled.ai.info)</visible>
 			<animation effect="fade" start="100" end="75" time="0" condition="true">Conditional</animation>
 			<fadetime>600</fadetime>
@@ -407,7 +407,7 @@
 			<include>Dimensions_Fullscreen</include>
 			<animation effect="fade" start="100" end="75" time="0" condition="true">Conditional</animation>
 			<aspectratio align="center">scale</aspectratio>
-			<texture colordiffuse="$INFO[Window(home).Property(MusicInfo.ImageColor)]">common/screen-overlay-shard.png</texture>
+			<texture colordiffuse="$VAR[ColorboxPowerModeColor]">common/screen-overlay-shard.png</texture>
 			<animation effect="fade" start="100" end="75" time="0" condition="true">Conditional</animation>
 			<visible>![[Skin.HasSetting(global.showvideo) + Player.HasVideo] | [Skin.HasSetting(global.showvisualisation) + Player.HasAudio]] + Window.IsVisible(DialogAlbumInfo.xml) + !Skin.HasSetting(toggled.ai.info)</visible>
 		</control>
@@ -488,7 +488,7 @@
 			<visible>![[Skin.HasSetting(global.showvideo) + Player.HasVideo] | [Skin.HasSetting(global.showvisualisation) + Player.HasAudio]] + Window.IsVisible(DialogAlbumInfo.xml) + Skin.HasSetting(toggled.ai.info)</visible>
 			<include>Dimensions_Fullscreen</include>
 			<aspectratio align="center">scale</aspectratio>
-			<texture colordiffuse="$INFO[Window(home).Property(MusicInfo.ImageColor)]" background="true">$INFO[ListItem.Art(fanart)]</texture>
+			<texture colordiffuse="$VAR[ColorboxPowerModeColor]" background="true">$INFO[ListItem.Art(fanart)]</texture>
 		</control>
 		<control type="image">
 			<visible>Window.IsVisible(DialogPVRInfo.xml)</visible>

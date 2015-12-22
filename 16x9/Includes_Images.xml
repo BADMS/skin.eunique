@@ -907,6 +907,11 @@
 		<value condition="Window.IsVisible(DialogVideoInfo.xml) + !Skin.HasSetting(low.power)">$INFO[Window(home).Property(VideoInfo.ImageFilter)]</value>
 		<value condition="Window.IsVisible(DialogVideoInfo.xml) + Skin.HasSetting(low.power) + Skin.HasSetting(toggled.dv.info)">diffuse/dv-mask.png</value>
 		<value condition="Window.IsVisible(DialogVideoInfo.xml) + Skin.HasSetting(low.power)">$INFO[ListItem.Art(fanart)]</value>
+
+		<value condition="Window.IsVisible(DialogAlbumInfo.xml) + !Skin.HasSetting(low.power)">$INFO[Window(home).Property(MusicInfo.ImageFilter)]</value>
+		<value condition="Window.IsVisible(DialogAlbumInfo.xml) + Skin.HasSetting(low.power) + Skin.HasSetting(toggled.ai.info)">diffuse/dv-mask.png</value>
+		<value condition="Window.IsVisible(DialogAlbumInfo.xml) + Skin.HasSetting(low.power)">$INFO[ListItem.Art(fanart)]</value>
+
 		<value condition="Window.IsVisible(Home.xml) + !Skin.HasSetting(low.power)">$INFO[Window(home).Property(HomeInfo.ImageFilter)]</value>
 		<value condition="Window.IsVisible(Home.xml) + Skin.HasSetting(low.power)">$VAR[GlobalFanart]</value>
 		<value condition="Control.IsVisible(50) + !Skin.HasSetting(low.power)">$INFO[Window(home).Property(VideoInfo.ImageFilter)]</value>

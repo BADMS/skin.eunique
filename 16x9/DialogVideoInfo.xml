@@ -946,7 +946,15 @@
 						</control>
 						<control type="image">
 							<aspectratio scalediffuse="false">stretch</aspectratio>
-							<texture colordiffuse="$VAR[ColorboxPowerModeColor]" background="true">$VAR[PosterImage]</texture>
+							<texture background="true">$VAR[PosterImage]</texture>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<right>0</right>
+							<bottom>0</bottom>
+							<texture colordiffuse="$VAR[ColorboxPowerModeColor]">common/white.png</texture>
+							<animation effect="fade" end="45" start="45" time="0" condition="true">Conditional</animation>
 						</control>
 						<control type="progress">
 							<bottom>0</bottom>
@@ -978,16 +986,10 @@
 								<label></label>
 								<textcolor>$VAR[EmbyMenuTextColourHighlight]</textcolor>
 								<fadetime>300</fadetime>
-								<animation type="Conditional" reversible="true" condition="Control.HasFocus(95004) + Stringcompare(Skin.String(widgetvideoinfo),ShowCast)">
-									<effect type="zoom" start="100" end="110" time="200" center="auto" tween="quadratic" easing="out"/>
-								</animation>
 							</control>
 							<control type="image">
 								<aspectratio scalediffuse="false">stretch</aspectratio>
 								<texture background="true">$VAR[PosterImage]</texture>
-								<animation type="Conditional" reversible="true" condition="Control.HasFocus(95004) + Stringcompare(Skin.String(widgetvideoinfo),ShowCast)">
-									<effect type="zoom" start="100" end="110" time="200" center="auto" tween="quadratic" easing="out"/>
-								</animation>
 							</control>
 							<control type="image">
 								<description>Title overlay</description>
@@ -1820,7 +1822,15 @@
 					</control>
 					<control type="image">
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<texture colordiffuse="$VAR[ColorboxPowerModeColor]" background="true">$VAR[PosterImage]</texture>
+						<texture background="true">$VAR[PosterImage]</texture>
+					</control>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<right>0</right>
+						<bottom>0</bottom>
+						<texture colordiffuse="$VAR[ColorboxPowerModeColor]">common/white.png</texture>
+						<animation effect="fade" end="45" start="45" time="0" condition="true">Conditional</animation>
 					</control>
 					<control type="progress">
 						<bottom>0</bottom>
@@ -1852,16 +1862,10 @@
 							<label></label>
 							<textcolor>$VAR[EmbyMenuTextColourHighlight]</textcolor>
 							<fadetime>300</fadetime>
-							<animation type="Conditional" reversible="true" condition=" Stringcompare(Skin.String(widgetvideoinfo),ShowCast)">
-								<effect type="zoom" start="100" end="110" time="200" center="auto" tween="quadratic" easing="out"/>
-							</animation>
 						</control>
 						<control type="image">
 							<aspectratio scalediffuse="false">stretch</aspectratio>
 							<texture background="true">$VAR[PosterImage]</texture>
-							<animation type="Conditional" reversible="true" condition="Stringcompare(Skin.String(widgetvideoinfo),ShowCast)">
-								<effect type="zoom" start="100" end="110" time="200" center="auto" tween="quadratic" easing="out"/>
-							</animation>
 						</control>
 						<control type="image">
 							<description>Title overlay</description>
