@@ -180,7 +180,7 @@
 							<control type="image">
 								<description>border</description>
 								<posx>30</posx>
-								<aspectratio scalediffuse="false">scale</aspectratio>
+								<aspectratio scalediffuse="false">stretch</aspectratio>
 								<texture background="true" colordiffuse="$VAR[BorderHighlightColour]">$VAR[FocusedBorderImage]</texture>
 							</control>
 						</control>

@@ -418,7 +418,7 @@
 				</control>
 			</control>
 			<control type="group">
-				<visible>[Container.Content(tvshows) | Container.Content(seasons)] + [!IsEmpty(Window(Home).Property(NextAired.NextDate)) | !IsEmpty(Window(Home).Property(NextAired.LatestTitle))] + !Control.IsVisible(50) + !Control.IsVisible(53) + !Control.IsVisible(57)</visible>
+				<visible>[Container.Content(tvshows) | Container.Content(seasons)] + [!IsEmpty(Window(Home).Property(NextAired.NextDate)) | !IsEmpty(Window(Home).Property(NextAired.LatestTitle))] + !Control.IsVisible(50) + !Control.IsVisible(53) + !Control.IsVisible(57) + !Control.IsVisible(58) + !Control.IsVisible(56)</visible>
 				<width>512</width>
 				<height>64</height>
 				<control type="image">
@@ -446,7 +446,7 @@
 				</control>
 			</control>
 			<control type="group">
-				<visible>[Container.Content(tvshows) | Container.Content(seasons)] + [IsEmpty(Window(Home).Property(NextAired.NextDate)) + IsEmpty(Window(Home).Property(NextAired.LatestTitle))] + !Control.IsVisible(50) + !Control.IsVisible(53) + !Control.IsVisible(57)</visible>
+				<visible>[Container.Content(tvshows) | Container.Content(seasons)] + [!IsEmpty(Window(Home).Property(NextAired.NextDate)) | !IsEmpty(Window(Home).Property(NextAired.LatestTitle))] + !Control.IsVisible(50) + !Control.IsVisible(53) + !Control.IsVisible(57) + !Control.IsVisible(58) + !Control.IsVisible(56)</visible>
 				<width>128</width>
 				<height>64</height>
 				<control type="image">
@@ -705,7 +705,7 @@
 				<height>34</height>
 				<selectedcolor>$VAR[EmbyMenuTextColourHighlight]</selectedcolor>
 				<label>[UPPERCASE]$VAR[listTitle]$VAR[listSubTitle, / , $LOCALIZE[31101]]$VAR[LabelNextAiredDetails, / ][/UPPERCASE]</label>
-				<visible>[Container.Content(tvshows) | Container.Content(seasons)] + !Control.IsVisible(50) + !Control.IsVisible(53) + !Control.IsVisible(57)</visible>
+				<visible>[Container.Content(tvshows) | Container.Content(seasons)] + [!IsEmpty(Window(Home).Property(NextAired.NextDate)) | !IsEmpty(Window(Home).Property(NextAired.LatestTitle))] + !Control.IsVisible(50) + !Control.IsVisible(53) + !Control.IsVisible(57) + !Control.IsVisible(58) + !Control.IsVisible(56)</visible>
 			</control>
 			<control type="label">
 				<align>left</align>
@@ -716,7 +716,7 @@
 				<height>34</height>
 				<selectedcolor>$VAR[EmbyMenuTextColourHighlight]</selectedcolor>
 				<label>[UPPERCASE]$VAR[listTitle]$VAR[listSubTitle, / , $LOCALIZE[31101]][/UPPERCASE]</label>
-				<visible>[Container.Content(tvshows) | Container.Content(seasons)] + [Control.IsVisible(50) | Control.IsVisible(53) | Control.IsVisible(57)]</visible>
+				<visible>[Container.Content(tvshows) | Container.Content(seasons)] + [Control.IsVisible(50) | Control.IsVisible(53) | Control.IsVisible(57) | Control.IsVisible(58) | Control.IsVisible(56)]</visible>
 			</control>
 			<control type="label">
 				<align>left</align>

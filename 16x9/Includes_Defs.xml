@@ -1131,7 +1131,6 @@
 			<align>left</align>
 			<label>$LOCALIZE[31946]:   $INFO[Skin.String(border.image)]</label>
 			<onclick>ActivateWindow(1114)</onclick>
-			<visible>!Control.IsVisible(518)</visible>
 		</control>
 		<control type="button" id="336">
 			<description>widget</description>

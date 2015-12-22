@@ -306,34 +306,12 @@
         </control>
     </include>
     <include name="50focuslayout">
-        <!--<control type="image"><width>100%</width><height>100%</height><aspectratio scalediffuse="false">scale</aspectratio><texture colordiffuse="$VAR[BorderHighlightColour]">$VAR[FocusedBorderImage]</texture></control>-->
         <control type="image">
             <left>0</left>
-            <width>25%</width>
+            <width>100%</width>
             <height>100%</height>
-            <aspectratio scalediffuse="false">scale</aspectratio>
+            <aspectratio scalediffuse="false">stretch</aspectratio>
             <texture colordiffuse="$VAR[BorderHighlightColour]" flipy="true">$VAR[FocusedBorderImage]</texture>
-        </control>
-        <control type="image">
-            <left>25%</left>
-            <width>25%</width>
-            <height>100%</height>
-            <aspectratio scalediffuse="false">scale</aspectratio>
-            <texture colordiffuse="$VAR[BorderHighlightColour]">$VAR[FocusedBorderImage]</texture>
-        </control>
-        <control type="image">
-            <left>50%</left>
-            <width>25%</width>
-            <height>100%</height>
-            <aspectratio scalediffuse="false">scale</aspectratio>
-            <texture colordiffuse="$VAR[BorderHighlightColour]" flipy="true">$VAR[FocusedBorderImage]</texture>
-        </control>
-        <control type="image">
-            <left>75%</left>
-            <width>25%</width>
-            <height>100%</height>
-            <aspectratio scalediffuse="false">scale</aspectratio>
-            <texture colordiffuse="$VAR[BorderHighlightColour]">$VAR[FocusedBorderImage]</texture>
         </control>
         <control type="label">
             <centertop>33.63636363636364</centertop>

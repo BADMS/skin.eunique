@@ -614,7 +614,7 @@
 		<control type="image">
 			<width>120</width>
 			<height>120</height>
-			<aspectratio scalediffuse="false">scale</aspectratio>
+			<aspectratio scalediffuse="false">stretch</aspectratio>
 			<texture background="true" colordiffuse="$VAR[BorderHighlightColour]">$VAR[FocusedBorderImage]</texture>
 		</control>
 		<control type="label" id="13370">
@@ -883,10 +883,9 @@
 					<width>945</width>
 					<animation effect="slide" end="0,582" time="0" condition="Skin.HasSetting(general.58logos.slide)">Conditional</animation>
 					<control type="image">
-						<left>0</left>
-						<width>945</width>
+						<left>10</left>
+						<width>925</width>
 						<height>157</height>
-						<align>center</align>
 						<texture>$VAR[Container58Logo]</texture>
 						<aspectratio align="center" aligny="bottom">keep</aspectratio>
 						<fadetime>50</fadetime>
@@ -1025,7 +1024,7 @@
 					<description>textarea</description>
 					<left>1140</left>
 					<bottom>52</bottom>
-					<right>10</right>
+					<right>15</right>
 					<height>129</height>
 					<align>justify</align>
 					<font>MediumSmallBold</font>
